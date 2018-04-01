@@ -4,7 +4,7 @@
     float: left;
     text-align: center;
     font-size: 16px;
-    width:15%;
+    width:10%;
     color: orange;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -12,7 +12,7 @@
     padding-right: 10px;
     border: 2px;
     border-color: black;
-    background-color: green;
+/*    background-color: green;*/
     
     
 }
@@ -23,18 +23,18 @@
     border: 2px;
     border-color: black;
     float:left;
-    padding-top: 40px;
+    padding-top: 39px;
     padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
     border: 2px;
-    background-color: red;
+/*    background-color: red;*/
     
     
     
 }
  .Events{
-    font-family:fantasy; 
+    font-family: fantasy; 
     float: left;
     text-align: center;
     font-size: 16px;
@@ -45,7 +45,7 @@
     padding-left: 10px;
     padding-right: 10px;
     border: 2px;
-     background-color: yellow;
+/*     background-color: yellow;*/
 }
 
 
@@ -69,11 +69,11 @@
     padding-left: 10px; 
     padding-right: 10px;
     border: 2px;
-    background-color: magenta;
+/*    background-color: magenta;*/
 }
 
 .dropdown-organize:hover{
-    background-color: lightgrey;
+    background-color: white;
 }
 
 .dropdown-content-organize {
@@ -109,20 +109,20 @@
     float: left;
     text-align: center;
     font-size: 16px;
-/*    width:15%;*/
+    width:10%;
     color: black;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
     border: 2px;
-    background-color: yellow;
+/*    background-color: yellow;*/
 }
 
 .mySign{
     font-family:fantasy; 
     float: left;
-/*    text-align: center;*/
+    text-align: center;
     font-size: 16px;
     width:10%;
     color: orange;
@@ -133,8 +133,7 @@
     border: 2px;        
     border-color: black;
     
-    background-color: blue;
+/*    background-color: blue;*/
     
 }
-/*chd de menu kr ke vekhn de*/
 
