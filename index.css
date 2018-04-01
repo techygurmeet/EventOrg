@@ -1,0 +1,18 @@
+#form_location{
+    display: block;
+    text-align: center;
+    color: orange;
+    padding-top: 20px;
+    font-size: 24px;
+    
+}
+
+#location{
+    border: 2px solid orange;
+    border-radius: 4px;
+    font-size: 24px;
+    width: 150px;
+    height: 8px;
+    padding: 12px 20px;
+    color: orange;
+}
