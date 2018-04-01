@@ -7,6 +7,13 @@
 .mySlides {display:none;}
 </style>
 <link rel="stylesheet" type="text/css" href="index.css">
+<script language="JavaScript">
+    function showInput() {
+        var x = Oops! no event at + document.getElementById("location").value;
+        document.getElementById("output").innerHTML = x; 
+        
+    }
+</script>
 <body>
 
     <div class="w3-content w3-section" style="max-width:1350px">
@@ -31,10 +38,15 @@
             setTimeout(carousel, 2000); // Change image every 2 seconds
         }
     </script>
-    <div id="form_location">    
-        <form action="to be filled" method="post"  autocomplete="on">
-            Popular Events in <input type="text" name="location" placeholder="your location" id="location" value="chandigarh">
+    <div id="form_location" >    
+        <form  action="#" method="get" autocomplete="on" onSubmit=showInput() >
+            Popular Events in <input type="text" name="location" placeholder="your location" id="location"  required >
+            
         </form>
+<!--        ask abhishek to solve this problem-->
+    </div>
+    <div id="output">
+            
     </div>
 
 </body>
