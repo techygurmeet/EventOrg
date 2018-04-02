@@ -9,8 +9,8 @@
 <link rel="stylesheet" type="text/css" href="index.css">
 <script language="JavaScript">
     function showInput() {
-        var x = Oops! no event at + document.getElementById("location").value;
-        document.getElementById("output").innerHTML = x; 
+         
+        document.getElementById("output").innerHTML = document.getElementById("location").value; 
         
     }
 </script>
@@ -40,14 +40,76 @@
     </script>
     <div id="form_location" >    
         <form  action="#" method="get" autocomplete="on" onSubmit=showInput() >
-            Popular Events in <input type="text" name="location" placeholder="your location" id="location"  required >
+            <b>Popular Events in </b><input type="text" name="location" placeholder="your location" id="location"  required >
             
         </form>
 <!--        ask abhishek to solve this problem-->
     </div>
-    <div id="output">
-            
+    
+    <div id="output"></div>
+    
+    <p id="pid1" ><b><u>Browse by Top Categories</u></b></p>
+    
+    
+    <div class="wrapper">
+        <div class="parent" onclick="">
+            <div class="child bg-one">
+                <a href="#">Music</a>
+            </div>
+        </div>
+
+        <div class="parent right" onclick="">
+            <div class="child bg-two">
+                <a href="#">Food</a>
+            </div>
+        </div>
+
+        <div class="parent" onclick="">
+            <div class="child bg-three">
+                <a  href="#">Technical</a>
+                
+            </div>
+        </div>
+
+        <div class="parent right" onclick="">
+            <div class="child bg-four">
+                <a href="#">Art</a>
+            </div>
+        </div>
+
+        <div class="parent" onclick="">
+            <div class="child bg-five">
+                <a href="#">Sports</a>
+            </div>
+        </div>
+
+        <div class="parent right" onclick="">
+            <div class="child bg-six">
+                <a href="#">Parties</a>
+            </div>
+        </div>
     </div>
+    
+    
+    
+<!--
+    <div class=image-container>
+        <div class="parent-sports">
+            <div class="child-sports">
+            <span id="span1">Sports</span>
+            </div>
+        </div>
+        <div class="parent-food">
+            <div class="child-food">
+            <span>Food</span>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+-->
+    
 
 </body>
 </html>

@@ -18,3 +18,283 @@
     margin-bottom:10px;
 }
 
+#pid1{
+    font-size: 24px;
+    color: orange;
+    text-align: center;
+    
+}
+
+
+         .wrapper {
+    align-items: center;
+    padding: 0px 50px;
+    max-width: 1200px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: auto;
+        margin-top: 10px;
+}
+
+    .parent {
+    width: 29%;
+    margin: 20px;
+    height: 266px;
+    border: 1px solid blue;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+    align-items: center;
+}
+            
+            a {
+    display: none;
+    font-size: 35px;
+    color: #ffffff !important;
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    /*text-decoration: none;*/
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+/* Several different images */
+.bg-one {background-image: url(https://bit.ly/2uG0Bzq);}
+.bg-two {background-image: url(https://bit.ly/2GNo6vq);}
+.bg-three {background-image: url(https://bit.ly/2J9QCG1);}
+.bg-four {background-image: url(https://bit.ly/2GsjCa0);}
+.bg-five {background-image: url(https://bit.ly/2GrEORB);}
+.bg-six {background-image: url(https://bit.ly/2GpKyew);}
+
+.parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.parent:hover .child:before, .parent:focus .child:before {
+    display: block;
+}
+
+.parent:hover a, .parent:focus a {
+    display: block;
+}
+
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52,73,94,0.75);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.parent-sports {
+  width: 400px; 
+  height: 266px;
+
+    margin-right: 10px;
+    margin-left: 50px;
+   
+    float:left;
+}
+
+.child-sports {
+  width: 100%;
+  height: 100%;
+  background-color: black; 
+  background-image: url("https://bit.ly/2uG0Bzq");
+  content:url(https://bit.ly/2uG0Bzq);
+*/
+/*
+  background-position: center;
+  background-size: cover;
+}
+
+.parent-sports:hover .child-sports,
+.parent-sports:focus .child-sports {
+  transform: scale(1.2);
+    
+}
+
+transition: all .5s;
+
+.child-sports::before {
+  content: "";
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;.
+  left: 0;
+  background-color: rgba(52, 73, 94, 0.75);
+}
+
+.parent-sports:hover .child-sports:before,
+.parent-sports:focus .child-sports:before {
+  display: block;
+}
+
+span {
+  color: black;  
+  font-family: fantasy;
+    padding-top: 100px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 160px;
+    
+    padding:15%;
+  padding-left: 10%;
+    padding-top: 9%;
+    align-content: center;
+    position: absolute;
+    display:block;
+    font-size: 48px;
+      
+}
+*/
+
+/*
+.parent-sports:hover span,
+.parent-sports:focus span {
+  display: block;
+}
+
+
+.parent-food {
+  width: 400px; 
+  height: 300px;
+    background-color: red;
+    margin-right: 10px;
+    margin-left: 50px;
+    float:left;
+}
+
+.child-food {
+  width: 100%;
+  height: 100%;
+  background-color: black;  fallback color 
+background-image: url("https://bit.ly/2GNo6vq");
+    content:url(https://bit.ly/2GNo6vq);
+  background-position: center;
+  background-size: cover;
+}
+
+.parent-food:hover .child-food,
+.parent-food:focus .child-food {
+  transform: scale(1.2);
+    
+}
+
+transition: all .5s;
+
+.child-food::before {
+  content: "";
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;.
+  left: 0;
+  background-color: rgba(52, 73, 94, 0.75);
+}
+
+.parent-food:hover .child-food:before,
+.parent-food:focus .child-food:before {
+  display: block;
+}
+
+
+.parent-food:hover span,
+.parent-food:focus span {
+  display: block;
+}
+
+*/
+
+
